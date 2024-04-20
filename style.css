@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.image img{
+    height: 50px;
+    margin: 35px;
+}
+
+.card{
+    width: 350px;
+    height: 398.99px;
+    border: 1px solid rgb(217, 214, 214);
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(217, 214, 214);
+    padding: 5px;
+}
+
+.form button{
+    background-color: #4bb4f8;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    width: 250px;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+.or{
+    margin-top: 20px;
+}
+
+.or p{
+    font-size: 13px;
+    padding: 10px;
+    color: #737373;
+}
+
+.fb{
+    margin-top: 20px;
+}
+
+.fb img{
+    height: 14px;
+}
+
+.fb a{
+    text-decoration: none;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.forgot{
+    margin-top: 20px;
+
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #00376b;
+    font-size: 12px;
+    
+}
+
+.card2{
+    font-size: 14px;
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(217, 214, 214);
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 p a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 500;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card3 p{
+    align-items: center;  
+    font-size: 14.5px;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+}
+
+.imgs img{
+    height: 60px;
+    padding: 10px;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: #737373;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: #737373;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.nav2 select{
+    border: none;
+    font-size: 12.5px;
+    color: #737373;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #00376b;
+}
